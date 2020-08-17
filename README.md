@@ -23,7 +23,7 @@ Clone the git repository using https or ssh.
 ```
 $ cd <PROJECTS_DIR>
 $ git clone https://github.com/Spandana8/SSR.git
-$ cd SSR
+$ cd SSR-APP
 $ npm install
 $ npm start
 ```
