@@ -1,0 +1,54 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html>
+    <head>
+        <title>Dynamic Website</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="This is about dynamic website">
+       <meta property=”og:title” content=”Title For Dynamic Webpage ” />
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <link rel="canocial" href="/" >
+        <style>
+        body {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        .heading {
+            text-align: left;
+            font-weight: bold;
+        }
+        p {
+            font-size: 16px;
+            padding-bottom: 20px;
+        }
+        .nav-bar {
+            margin-bottom:5%;
+        }
+    </style>
+    </head>
+
+    <body>
+        <!-- Site navigation menu -->
+        <div class="nav-bar">
+            <nav class="navbar navbar-default navbar-fixed-top">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="#">Dynamic Website</a>
+                    </div>
+                    <ul class="nav navbar-nav">
+                    <li><a href="/">Home page</a>
+                    <li><a href="/first">First Page Link</a>
+                    <li><a href="/second">Second Page Link</a>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <!-- Main content -->
+        <div class="container" id="root">
+            {{{body}}}
+        </div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> <!-- <script src="script.js"></script> -->
+    </body>
+</html>
